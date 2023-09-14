@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#quote-box {
+  display: table;
+  background-color: white;
+  border-radius: 10px;
+  width: 600px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+  padding: 25px 25px 15px 25px;
+}
+
+#textfield {
+  width: 100%;
+  display: block;
+  cursor: default;
+}
+
+#text {
+  padding: 5px;
+  clear: both;
+  line-height: 1.2;
+}
+
+.active {
+  opacity: 0;
+}
+
+#quotes:first-of-type {
+  font-size: 35px;
+  padding-right: 15px;
+}
+
+#quotes:last-of-type {
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+#author {
+  text-align: right;
+  margin: 10px 5px 15px 0px;
+  clear: both;
+}
+
+#links {
+  display: block;
+  width: 100%;
+  align-self: flex-end;
+}
+
+button {
+  float: right;
+  width: fit-content;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 40px;
+  color: white;
+  font-size: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border: 1px solid transparent;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  font-size: 1em;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+FaTwitter {
+  font-size: 100px;
+}
